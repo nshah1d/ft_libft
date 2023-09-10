@@ -6,7 +6,7 @@
 /*   By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 09:40:35 by nshahid           #+#    #+#             */
-/*   Updated: 2023/08/26 13:50:04 by nshahid          ###   ########.fr       */
+/*   Updated: 2023/08/27 08:42:15 by nshahid          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@
 
 int	ft_putstr(char const *s)
 {
-	ft_putstr_fd(s, 1);
-	return (1);
+	if (!s)
+		return (write(1, "(null)", 6));
+	return (write(1, s, ft_strlen(s)));
 }

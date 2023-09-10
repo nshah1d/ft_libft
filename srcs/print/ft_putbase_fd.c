@@ -6,7 +6,7 @@
 /*   By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/26 11:24:48 by nshahid           #+#    #+#             */
-/*   Updated: 2023/08/26 11:32:04 by nshahid          ###   ########.fr       */
+/*   Updated: 2023/08/29 13:17:32 by nshahid          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,14 +62,8 @@ void	ft_putbase_fd(int nbr, const char *base, int fd)
 	}
 	else
 		nb = (long)nbr;
-	if (nb < base_len)
-	{
-		c = *(base + nb % base_len);
-		write(fd, &c, 1);
-	}
-	else
-	{
+	if (nb > (base_len - 1))
 		ft_putbase_fd(nb / base_len, base, fd);
-		ft_putbase_fd(nb % base_len, base, fd);
-	}
+	c = *(base + (nb % base_len));
+	write(fd, &c, 1);
 }

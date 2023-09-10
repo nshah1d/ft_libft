@@ -6,7 +6,7 @@
 #    By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 11:03:30 by nshahid           #+#    #+#              #
-#    Updated: 2023/08/26 11:29:55 by nshahid          ###   ########.fr        #
+#    Updated: 2023/09/03 11:13:54 by nshahid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,15 +43,19 @@ SRCS_MEMORY		= ft_bzero.c \
 					ft_memcpy.c \
 					ft_memmove.c \
 					ft_memset.c
-SRCS_PRINT		= ft_putbase_fd.c \
+SRCS_PRINT		= ft_printf.c \
+					ft_putaddress.c \
+					ft_putbase_fd.c \
 					ft_putchar_fd.c \
 					ft_putchar.c \
 					ft_putendl_fd.c \
 					ft_putendl.c \
+					ft_puthexa.c \
 					ft_putnbr_fd.c \
 					ft_putnbr.c \
 					ft_putstr_fd.c \
-					ft_putstr.c
+					ft_putstr.c \
+					ft_putunsigned.c
 SRCS_STRING		= ft_abs.c \
 					ft_atoi.c \
 					ft_itoa.c \

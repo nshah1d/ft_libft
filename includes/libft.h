@@ -13,7 +13,10 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stdarg.h>
+# include <stdio.h>
 # include <unistd.h>
+# include <stddef.h>
 # include <stdlib.h>
 # include <string.h>
 # include <limits.h>
@@ -69,6 +72,7 @@ void	*ft_memset(void *str, int c, size_t n);
 /*                                  PRINT                                     */
 /* ************************************************************************** */
 
+int		ft_printf(const char *str, ...);
 void	ft_putbase_fd(int nbr, const char *base, int fd);
 void	ft_putchar_fd(char c, int fd);
 int		ft_putchar(char c);
