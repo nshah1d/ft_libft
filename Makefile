@@ -6,7 +6,7 @@
 #    By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 11:03:30 by nshahid           #+#    #+#              #
-#    Updated: 2023/09/03 11:13:54 by nshahid          ###   ########.fr        #
+#    Updated: 2023/09/10 15:54:49 by nshahid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,6 +56,16 @@ SRCS_PRINT		= ft_printf.c \
 					ft_putstr_fd.c \
 					ft_putstr.c \
 					ft_putunsigned.c
+SRCS_PRINTF		= ft_printf.c \
+					ft_putchar.c \
+					ft_putchar_fd.c \
+					ft_putstr.c \
+					ft_strlen.c \
+					ft_putnbr.c \
+					ft_abs.c \
+					ft_puthexa.c \
+					
+
 SRCS_STRING		= ft_abs.c \
 					ft_atoi.c \
 					ft_itoa.c \
