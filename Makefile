@@ -6,7 +6,7 @@
 #    By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 11:03:30 by nshahid           #+#    #+#              #
-#    Updated: 2023/09/10 15:54:49 by nshahid          ###   ########.fr        #
+#    Updated: 2023/09/11 13:28:53 by nshahid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,16 +56,6 @@ SRCS_PRINT		= ft_printf.c \
 					ft_putstr_fd.c \
 					ft_putstr.c \
 					ft_putunsigned.c
-SRCS_PRINTF		= ft_printf.c \
-					ft_putchar.c \
-					ft_putchar_fd.c \
-					ft_putstr.c \
-					ft_strlen.c \
-					ft_putnbr.c \
-					ft_abs.c \
-					ft_puthexa.c \
-					
-
 SRCS_STRING		= ft_abs.c \
 					ft_atoi.c \
 					ft_itoa.c \
@@ -203,11 +193,11 @@ memory: $(OBJS_MEMORY)
 	@echo "$(YELLOW)Created: $(words $(OBJS_MEMORY)) object file(s)$(RESET)"
 	@echo "$(YELLOW)Created: $(NAME)$(RESET)"
 
-print: $(OBJS_PRINT)
-	@$(AR) $(NAME) $(OBJS_PRINT)
+print: $(OBJS_PRINT) $(OBJS_STRING)
+	@$(AR) $(NAME) $(OBJS_PRINT) $(OBJS_STRING)
 	@$(LIB) $(NAME)
 	@echo "$(GREEN)$(BOLD)SUCCESS$(RESET)"
-	@echo "$(YELLOW)Created: $(words $(OBJS_PRINT)) object file(s)$(RESET)"
+	@echo "$(YELLOW)Created: $(words $(OBJS_PRINT) $(OBJS_STRING)) object file(s)$(RESET)"
 	@echo "$(YELLOW)Created: $(NAME)$(RESET)"
 
 string: $(OBJS_STRING)
