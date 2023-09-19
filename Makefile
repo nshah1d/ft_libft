@@ -6,7 +6,7 @@
 #    By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 11:03:30 by nshahid           #+#    #+#              #
-#    Updated: 2023/09/19 10:19:19 by nshahid          ###   ########.fr        #
+#    Updated: 2023/09/19 12:47:09 by nshahid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@
 
 SRCP			= ./srcs/
 SRCP_CHECK		= $(SRCP)check/
-SCRP_GNL		= $(SRCP)get_next_line/
+SCRP_GNL		= $(SRCP)gnl/
 SRCP_LIST 		= $(SRCP)list/
 SRCP_MEMORY		= $(SRCP)memory/
 SRCP_PRINT		= $(SRCP)print/
