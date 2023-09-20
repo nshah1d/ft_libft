@@ -19,7 +19,7 @@
 ** c - The character to be written.
 **
 ** Return:
-** None.
+** 1 - The number of characters printed
 **
 ** Description:
 ** The ft_putchar function takes a character 'c' as its parameter and
