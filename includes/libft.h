@@ -16,6 +16,7 @@
 # include <stdarg.h>
 # include <stdio.h>
 # include <unistd.h>
+# include <stdbool.h>
 # include <stddef.h>
 # include <stdlib.h>
 # include <string.h>
@@ -109,6 +110,7 @@ int		ft_putunsigned(unsigned long n);
 /* ************************************************************************** */
 
 long	ft_abs(long n);
+double	ft_atof(const char *str);
 int		ft_atoi(char const *str);
 char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);

@@ -6,7 +6,7 @@
 /*   By: nshahid <nshahid@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 09:40:35 by nshahid           #+#    #+#             */
-/*   Updated: 2023/09/11 12:34:59 by nshahid          ###   ########.fr       */
+/*   Updated: 2023/09/25 12:54:38 by nshahid          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 ** s - A pointer to the null-terminated string to be written.
 **
 ** Return:
-** None.
+** The length of the number of characters printed.
 **
 ** Description:
 ** The ft_putstr function takes a null-terminated string 's' as its
