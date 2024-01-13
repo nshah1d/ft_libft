@@ -1,8 +1,6 @@
-![nshahid's 42 stats](https://badge42.vercel.app/api/v2/cllho6vgj001108l4to6gq7l8/stats?cursusId=21&coalitionId=undefined)
+# 42: FT_LIBFT
 
-# 42 ABU DHABI: FT_LIBFT
-
-[Personal website which contains my current and past projects being undertaken at 42 Abu Dhabi.](https://42.nauman.cc/)
+[Personal website which contains my current and past projects being undertaken at 42.](https://42.nauman.cc/)
 <br /><br/>
 Get geared up for some coding adventure with ft_libft! This is where the rubber meets the road in future 42 projects. Picture crafting a stellar library of functions using C – but these aren't your run-of-the-mill functions. They're turbocharged, designed to give the standard ones a real run for their money!
 <br/><br/>
